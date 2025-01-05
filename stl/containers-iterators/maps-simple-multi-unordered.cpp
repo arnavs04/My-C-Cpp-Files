@@ -21,8 +21,9 @@ int main()
 
     auto it = mp.find(3) // gives iterator to address where key is 3
     cout << *(it).second;
-
     // if 3 is not then points to address after the map
+
+    // my_map[my_int] can also add element if not present already instead my_map.at(my_int)
 
     // Multimap
     // everything same as map, except it can store multiple keys
